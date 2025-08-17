@@ -73,6 +73,7 @@ black : black
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -88,7 +89,7 @@ body {
 
 .pj__sectionContent {
     width: 1170px;
-    max-width: calc(100vw - 20px);
+    max-width: calc(100vw - 40px);
     margin: auto;
 }
 
@@ -1331,7 +1332,7 @@ body {
 }
 
 .pageFooter::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -1350,7 +1351,6 @@ body {
 
 .footer__left {
     width: 40%;
-    
 }
 .footer__right {
     width: 60%;
@@ -1454,10 +1454,19 @@ body {
 
 .footerItem {
     margin-top: 10px;
-
     color: #656689;
     color: var(--lightGray_desc);
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 2;
+}
+
+.footerItem a {
+    display: inline-block;
+    width: 100%;
+}
+
+.footerItem a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }

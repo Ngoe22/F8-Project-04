@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>PROJECT-4</title>
         <!-- Favicon -->
         <link
             rel="apple-touch-icon"
@@ -139,16 +139,18 @@
                 <!-- navbar -->
                 <nav class="pageHeader__navbar">
                     <a
-                        href="#!"
+                        href="#"
                         class="pageHeader__navItem pageHeader__navItem--active"
                         >Home</a
                     >
-                    <a href="#!" class="pageHeader__navItem">About</a>
-                    <a href="#!" class="pageHeader__navItem"
+                    <a href="#about" class="pageHeader__navItem">About</a>
+                    <a href="#service" class="pageHeader__navItem"
                         >Services & Rates
                     </a>
-                    <a href="#!" class="pageHeader__navItem">Review</a>
-                    <a href="#!" class="pageHeader__navItem">Contacts us</a>
+                    <a href="#review" class="pageHeader__navItem">Review</a>
+                    <a href="#contact" class="pageHeader__navItem"
+                        >Contacts us</a
+                    >
                 </nav>
                 <!-- signup Btn -->
                 <button class="pageHeader__signUpBtn">Sign Up</button>
@@ -157,7 +159,7 @@
         <!-- hero -->
         <section class="hero">
             <div class="pj__sectionContent hero__sectionContent">
-                <div class="hero__media">
+                <div class="hero__media" data-aos="fade-right">
                     <figure class="hero__mediaImg1--wrap">
                         <img
                             src="./assets/img/hero1.png"
@@ -231,7 +233,7 @@
             </div>
         </section>
         <!-- about -->
-        <section class="about">
+        <section class="about" id="about">
             <div class="pj__sectionContent about__sectionContent">
                 <!-- content -->
                 <div class="about__content">
@@ -259,7 +261,7 @@
                     </div>
                 </div>
                 <!-- media -->
-                <div class="about__media">
+                <div class="about__media" data-aos="fade-right">
                     <div class="about__mediaTag">
                         <strong class="about__mediaTagNumber">20+</strong>
                         <div class="about__mediaTagText">Years Experience</div>
@@ -288,7 +290,7 @@
         <section class="feature">
             <div class="pj__sectionContent feature__sectionContent">
                 <!-- media -->
-                <div class="feature__media">
+                <div class="feature__media" data-aos="fade-right">
                     <img
                         src="./assets/img/feature.jpg"
                         alt=""
@@ -404,7 +406,7 @@
             </div>
         </section>
         <!-- service -->
-        <section class="service">
+        <section class="service" id="service">
             <div class="pj__sectionContent">
                 <div class="pj__preHeading service__preHeading">
                     What we do for you?
@@ -455,7 +457,12 @@
                             </a>
                         </article>
                     </div>
-                    <div class="service__columnMid">
+                    <div
+                        class="service__columnMid"
+                        data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom"
+                    >
+                        >
                         <img
                             src="./assets/img/service.jpg"
                             alt=""
@@ -525,7 +532,12 @@
 
                 <!-- list -->
 
-                <ul class="team__list">
+                <ul
+                    class="team__list"
+                    class="service__columnMid"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom"
+                >
                     <!-- item 1 -->
                     <li class="team__item">
                         <figure class="team__itemAvatar--wrap">
@@ -613,7 +625,12 @@
                     <span class="pricing__termItem">Yearly</span>
                 </label>
 
-                <ul class="pricing__list">
+                <ul
+                    class="pricing__list"
+                    class="service__columnMid"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                >
                     <!-- item 1 -->
                     <li class="pricing__item">
                         <div class="pricing__itemType">Basic</div>
@@ -708,9 +725,9 @@
             </div>
         </section>
         <!-- review -->
-        <section class="review">
+        <section class="review" id="review">
             <div class="pj__sectionContent review__sectionContent">
-                <div class="review__board">
+                <div class="review__board" data-aos="fade-right">
                     <button class="review__boardBtn review__boardBtnLeft">
                         <i class="fa-solid fa-arrow-left-long"></i>
                     </button>
@@ -764,7 +781,11 @@
                     </div>
                 </div>
 
-                <ul class="blog__list">
+                <ul
+                    class="blog__list"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                >
                     <!-- item 1 -->
                     <li class="blog__item">
                         <a href="#!" class="blog__itemHead">
@@ -837,7 +858,7 @@
             </div>
         </section>
         <!-- footer -->
-        <footer class="pageFooter">
+        <footer class="pageFooter" id="contact">
             <div class="pj__sectionContent footer__sectionContent">
                 <div class="footer__body">
                     <div class="footer__left">
