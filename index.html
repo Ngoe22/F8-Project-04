@@ -384,24 +384,32 @@
                     </ul>
                     <section class="pj__desc feature__listDesc">
                         <!-- item 1 -->
-                        <p
+                        <li
                             class="feature__listDescItem feature__listDescItem--active"
                         >
-                            While you're on holiday, here's where your furry
-                            friends will spend their time.
-                        </p>
+                            <p class="feature__listDescItem_text">
+                                While you're on holiday, here's where your furry
+                                friends will spend their time.
+                            </p>
+                            <a href="#!" class="feature__link">View more</a>
+                        </li>
                         <!-- item 2 -->
-                        <p class="feature__listDescItem">
-                            While you're on holiday, here's where your furry
-                            friends will spend their time.
-                        </p>
+                        <li class="feature__listDescItem">
+                            <p class="feature__listDescItem_text">
+                                While you're on holiday, here's where your furry
+                                friends will spend their time.
+                            </p>
+                            <a href="#!" class="feature__link">View more</a>
+                        </li>
                         <!-- item 3 -->
-                        <p class="feature__listDescItem">
-                            While you're on holiday, here's where your furry
-                            friends will spend their time.
-                        </p>
+                        <li class="feature__listDescItem">
+                            <p class="feature__listDescItem_text">
+                                While you're on holiday, here's where your furry
+                                friends will spend their time.
+                            </p>
+                            <a href="#!" class="feature__link">View more</a>
+                        </li>
                     </section>
-                    <a href="#!" class="feature__link">View more</a>
                 </div>
             </div>
         </section>
@@ -625,14 +633,13 @@
                     <span class="pricing__termItem">Yearly</span>
                 </label>
 
-                <ul
+                <div
                     class="pricing__list"
-                    class="service__columnMid"
                     data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom"
                 >
                     <!-- item 1 -->
-                    <li class="pricing__item">
+                    <article class="pricing__item">
                         <div class="pricing__itemType">Basic</div>
                         <h3 class="pricing__itemName">Day care</h3>
                         <strong class="pricing__itemPrice">$150</strong>
@@ -660,9 +667,9 @@
                                 Custom Meals
                             </li>
                         </ul>
-                    </li>
+                    </article>
                     <!-- item 2 -->
-                    <li class="pricing__item">
+                    <article class="pricing__item">
                         <div class="pricing__itemType">Exclusive</div>
                         <h3 class="pricing__itemName">2X Care</h3>
                         <strong class="pricing__itemPrice">$199</strong>
@@ -690,9 +697,9 @@
                                 Custom Meals
                             </li>
                         </ul>
-                    </li>
+                    </article>
                     <!-- item 3 -->
-                    <li class="pricing__item">
+                    <article class="pricing__item">
                         <div class="pricing__itemType">Platinum</div>
                         <h3 class="pricing__itemName">4X Care</h3>
                         <strong class="pricing__itemPrice">$299</strong>
@@ -720,8 +727,8 @@
                                 Custom Meals
                             </li>
                         </ul>
-                    </li>
-                </ul>
+                    </article>
+                </div>
             </div>
         </section>
         <!-- review -->
@@ -731,28 +738,101 @@
                     <button class="review__boardBtn review__boardBtnLeft">
                         <i class="fa-solid fa-arrow-left-long"></i>
                     </button>
-                    <figure class="review__avatar--wrap">
-                        <img
-                            src="./assets/img/review1.png"
-                            alt=""
-                            class="review__avatar"
-                        />
-                    </figure>
-                    <div class="review__MidBlock">
-                        <h2 class="review__heading pj__heading">Our Reviews</h2>
+                    <ul class="review__list">
                         <!-- item 1 -->
-                        <div class="review__contentBlock">
-                            <p class="review__post">
-                                “It was very comforting to recieve a text and
-                                pics each day about our pets and how they were
-                                doing. It was also nice that my pets were in the
-                                comfortable environment of their own home and
-                                received playfull attention from our pet sitters
-                                as well. Thanks so much!”
-                            </p>
-                            <div class="review__reviewerName">Karla Deras</div>
-                        </div>
-                    </div>
+                        <li class="review__item">
+                            <figure class="review__ItemAvatar--wrap">
+                                <img
+                                    src="./assets/img/review1.png"
+                                    alt=""
+                                    class="review__ItemAvatar"
+                                />
+                            </figure>
+                            <div class="review__ItemContent">
+                                <h2 class="pj__heading review__ItemTitle">
+                                    Our Reviews
+                                </h2>
+
+                                <div class="review__itemQuoteBlock">
+                                    <blockquote class="review__itemQuote">
+                                        “It was very comforting to receive a
+                                        text and pics each day about our pets
+                                        and how they were doing. It was also
+                                        nice that my pets were in the
+                                        comfortable environment of their own
+                                        home and received playful attention from
+                                        our pet sitters as well. Thanks so
+                                        much!”
+                                    </blockquote>
+                                    <div class="review__itemAuthor">
+                                        Karla Deras
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- item 2 -->
+                        <li class="review__item review__item--active">
+                            <figure class="review__ItemAvatar--wrap">
+                                <img
+                                    src="./assets/img/review1.png"
+                                    alt=""
+                                    class="review__ItemAvatar"
+                                />
+                            </figure>
+                            <div class="review__ItemContent">
+                                <h2 class="pj__heading review__ItemTitle">
+                                    Our Reviews
+                                </h2>
+
+                                <div class="review__itemQuoteBlock">
+                                    <blockquote class="review__itemQuote">
+                                        “It was very comforting to receive a
+                                        text and pics each day about our pets
+                                        and how they were doing. It was also
+                                        nice that my pets were in the
+                                        comfortable environment of their own
+                                        home and received playful attention from
+                                        our pet sitters as well. Thanks so
+                                        much!”
+                                    </blockquote>
+                                    <div class="review__itemAuthor">
+                                        Karla Deras
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- item 2 -->
+                        <li class="review__item">
+                            <figure class="review__ItemAvatar--wrap">
+                                <img
+                                    src="./assets/img/review1.png"
+                                    alt=""
+                                    class="review__ItemAvatar"
+                                />
+                            </figure>
+                            <div class="review__ItemContent">
+                                <h2 class="pj__heading review__ItemTitle">
+                                    Our Reviews
+                                </h2>
+
+                                <div class="review__itemQuoteBlock">
+                                    <blockquote class="review__itemQuote">
+                                        “It was very comforting to receive a
+                                        text and pics each day about our pets
+                                        and how they were doing. It was also
+                                        nice that my pets were in the
+                                        comfortable environment of their own
+                                        home and received playful attention from
+                                        our pet sitters as well. Thanks so
+                                        much!”
+                                    </blockquote>
+                                    <div class="review__itemAuthor">
+                                        Karla Deras
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                     <button class="review__boardBtn review__boardBtnRight">
                         <i class="fa-solid fa-arrow-right-long"></i>
                     </button>
