@@ -303,7 +303,7 @@
     /* header */
     /* hero */
     .hero__mediaCardList {
-        left: 0;
+        right: 0;
     }
     /* about */
     .about__featureGroup {
