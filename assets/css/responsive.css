@@ -305,6 +305,7 @@
     .hero__mediaCardList {
         right: 0;
     }
+
     /* about */
     .about__featureGroup {
         grid-template-columns: 1fr;
@@ -338,7 +339,6 @@
 
     .footer__right {
         grid-template-columns: 1fr;
-        
     }
 
     .footer__form {
