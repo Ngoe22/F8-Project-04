@@ -118,6 +118,7 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- style -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
 
         <!-- 
                               Else
@@ -128,6 +129,18 @@
         <!-- header -->
         <header class="pageHeader">
             <div class="pj__sectionContent pageHeader__contentSection">
+                <!-- for MB -->
+                <label for="p_header__switch" class="p_header__switchBtn">
+                    <i style="font-size: 3.5rem" class="fa-solid fa-bars"></i>
+                </label>
+                <input
+                    type="checkbox"
+                    id="p_header__switch"
+                    class="p_header__switch"
+                    hidden
+                />
+
+                <!-- for PC -->
                 <!-- logo -->
                 <a href="#" class="pageHeader__logo--wrap">
                     <img
@@ -141,19 +154,46 @@
                     <a
                         href="#"
                         class="pageHeader__navItem pageHeader__navItem--active"
-                        >Home</a
                     >
+                        Home
+                    </a>
                     <a href="#about" class="pageHeader__navItem">About</a>
-                    <a href="#service" class="pageHeader__navItem"
-                        >Services & Rates
+                    <a href="#service" class="pageHeader__navItem">
+                        Services & Rates
                     </a>
                     <a href="#review" class="pageHeader__navItem">Review</a>
-                    <a href="#contact" class="pageHeader__navItem"
-                        >Contacts us</a
-                    >
+                    <a href="#contact" class="pageHeader__navItem">
+                        Contacts us
+                    </a>
                 </nav>
                 <!-- signup Btn -->
                 <button class="pageHeader__signUpBtn">Sign Up</button>
+
+                <!-- for MB -->
+                <label for="p_header__switch" class="p_header__overlay"></label>
+                <div class="p_header">
+                    <img
+                        src="./assets/logo/mainLogoWithText.svg"
+                        alt=""
+                        class="pageHeader__logo"
+                    />
+
+                    <nav class="p_header__list">
+                        <a href="#" class="p_header__item"> Home </a>
+                        <a href="#about" class="p_header__item">About</a>
+                        <a href="#service" class="p_header__item">
+                            Services & Rates
+                        </a>
+                        <a href="#review" class="p_header__item">Review</a>
+                        <a href="#contact" class="p_header__item">
+                            Contacts us
+                        </a>
+                    </nav>
+
+                    <button class="pageHeader__signUpBtn p_header__Btn">
+                        Sign Up
+                    </button>
+                </div>
             </div>
         </header>
         <!-- hero -->
@@ -470,7 +510,6 @@
                         data-aos="fade-up"
                         data-aos-anchor-placement="center-bottom"
                     >
-                        >
                         <img
                             src="./assets/img/service.jpg"
                             alt=""
@@ -542,7 +581,6 @@
 
                 <ul
                     class="team__list"
-                    class="service__columnMid"
                     data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom"
                 >
